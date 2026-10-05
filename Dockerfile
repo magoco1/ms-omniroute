@@ -3,7 +3,7 @@
 # Uses the OFFICIAL prebuilt image (source build needs >8GB and fails on the
 # free Studio builder). Pinned for reproducibility; bump deliberately.
 # Source-level compat notes live in Dockerfile.source-build.bak + README.
-FROM diegosouzapw/omniroute:3.8.50
+FROM diegosouzapw/omniroute:3.8.51
 
 # ModelScope Docker Studio contract: serve 0.0.0.0:7860, persist under /mnt/workspace.
 ENV PORT=7860
